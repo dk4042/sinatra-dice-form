@@ -2,7 +2,6 @@ require "sinatra"
 require "sinatra/reloader"
 
 get("/") do 
-  "Homepage"
   erb(:homepage)
 end
 
